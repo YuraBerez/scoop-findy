@@ -1,0 +1,32 @@
+{
+  "version": "0.4.1",
+  "description": "Private, local-first kanban board for a job search",
+  "homepage": "https://github.com/YuraBerez/findy",
+  "license": "MIT",
+  "notes": [
+    "Findy is not code-signed yet: Windows SmartScreen may ask once (More info > Run anyway).",
+    "Your board is kept in %APPDATA%\\Findy and stays when Findy is updated or uninstalled."
+  ],
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/YuraBerez/findy/releases/download/v0.4.1/Findy-0.4.1-Windows-portable.zip",
+      "hash": "a45e65d25ec50777b6c31115f92fef575c77aa17a6ba9131c8f264b1e8dda351"
+    }
+  },
+  "shortcuts": [
+    [
+      "Findy.exe",
+      "Findy"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/YuraBerez/findy"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/YuraBerez/findy/releases/download/v$version/Findy-$version-Windows-portable.zip"
+      }
+    }
+  }
+}
