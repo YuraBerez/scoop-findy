@@ -1,5 +1,5 @@
 {
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Private, local-first kanban board for a job search",
   "homepage": "https://github.com/YuraBerez/findy",
   "license": "MIT",
@@ -9,8 +9,8 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://github.com/YuraBerez/findy/releases/download/v0.7.0/Findy-0.7.0-Windows-portable.zip",
-      "hash": "c103af09f825271d68c259d93b33df10c55fd7cbc24889963aaaa6a7db3c7ef3"
+      "url": "https://github.com/YuraBerez/findy/releases/download/v0.7.1/Findy-0.7.1-Windows-portable.zip",
+      "hash": "0e1cb4c9cc001ac277c5248642a0eefca68d0e13f6eba5636703060e602a16ac"
     }
   },
   "shortcuts": [
